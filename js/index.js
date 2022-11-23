@@ -33,6 +33,8 @@ window.onload=function(){
         window.location.href = "./details.html";
     }
 
+    // Display the page
+    document.getElementById('main').style.display = 'inline';
 
     const form = document.getElementById('sampleForm');
     form.addEventListener('submit', event => {

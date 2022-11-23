@@ -4,4 +4,6 @@ window.onload=function(){
     if(firstVisit != 'false'){
         window.location.href = "./index.html";
     }
+    // Display the page
+    document.getElementById('main').style.display = 'inline';
 }
