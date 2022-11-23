@@ -2,7 +2,8 @@
 window.onload=function(){
     var firstVisit = localStorage.getItem("firstVisit");
     if(firstVisit != 'false'){
-        window.location.href = "./index.html";
+        window.location.replace("./index.html");
+        return;
     }
     // Display the page
     document.getElementById('main').style.display = 'inline';

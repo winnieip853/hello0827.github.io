@@ -30,7 +30,8 @@ function redirect(){
 window.onload=function(){
     var firstVisit = localStorage.getItem("firstVisit");
     if(firstVisit == 'false'){
-        window.location.href = "./details.html";
+        window.location.replace("./details.html");
+        return;
     }
 
     // Display the page
